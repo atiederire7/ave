@@ -171,6 +171,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 .main__title {
   font-size: 450px;
+  font-family: Montserrat;
+  letter-spacing: normal;
+  letter-spacing: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #575153;
