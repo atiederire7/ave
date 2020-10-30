@@ -1,6 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto&display=swap');
-// @import 'nullstyle';
+@import 'nullstyle';
 
 .container {
     width: 1170px;
+}
+.wrapper {}
+.header {
+    &__content {}
+    &__block1 {}
+    &__block2 {}
+    &__block3 {}
+    &__select {}
+    &__option {}
+    &__register {}
+    &__sign-in {}
+    &__cart {}
+}
+.main {
+    &__content {}
+    &__menu {}
+    &__logo {}
+    &__inner {}
+    &__item {}
+    &__search {}
+    &__input {}
+    &__title {}
+    &__button {}
 }
