@@ -5,7 +5,9 @@
     width: 1170px;
     margin: 0 auto;
 }
-.wrapper {}
+.wrapper {
+    overflow: hidden;
+}
 .header {
     background-color: #333333;
     &__content {
@@ -65,12 +67,15 @@
         margin: 0 10px;
     }
     &__menu {
+        display: flex;
+        justify-content: space-between;
         padding-top: 37px;
-        width: 1780px;
+        max-width: 1780px;
         margin: 0 auto;
     }
     &__logo {
-        color: #222222;
+        width: 237px;
+        border: 1px solid #000;
         font-family: Montserrat;
         font-size: 24px;
         font-weight: 500;
@@ -79,12 +84,23 @@
             font-weight: 900;
         }
     }
-    &__inner {}
-    &__item {}
+    &__item {
+        font-family: Montserrat;
+        font-size: 13px;
+        font-weight: 400;
+    }
     &__search {}
     &__input {}
     &__title {}
     &__button {}
+}
+.menu {
+    &__inner {
+        width: 595px;
+        border: 1px solid #000;
+        display: flex;
+        justify-content: space-between;
+    }
 }
 i {
     border: solid #fff;

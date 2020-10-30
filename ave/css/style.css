@@ -80,6 +80,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.wrapper {
+  overflow: hidden;
+}
+
 .header {
   background-color: #333333;
 }
@@ -135,12 +139,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 10px;
 }
 .main__menu {
+  display: flex;
+  justify-content: space-between;
   padding-top: 37px;
-  width: 1780px;
+  max-width: 1780px;
   margin: 0 auto;
 }
 .main__logo {
-  color: #222222;
+  width: 237px;
+  border: 1px solid #000;
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 500;
@@ -149,6 +156,18 @@ h1, h2, h3, h4, h5, h6 {
 .main__logo span {
   font-weight: 900;
 }
+.main__item {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+}
+.menu__inner {
+  width: 595px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-between;
+}
+
 i {
   border: solid #fff;
   border-width: 0 2px 2px 0;
