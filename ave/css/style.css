@@ -138,6 +138,9 @@ h1, h2, h3, h4, h5, h6 {
 .main__content {
   margin: 0 10px;
 }
+.main__right-block {
+  display: flex;
+}
 .main__menu {
   display: flex;
   justify-content: space-between;
@@ -161,11 +164,25 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 13px;
   font-weight: 400;
 }
+.main__search {
+  border: 1px solid #000;
+  width: 100px;
+  height: 20px;
+}
+.main__title {
+  font-size: 450px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #575153;
+  text-align: center;
+  border: 1px solid #000;
+}
 .menu__inner {
   width: 595px;
   border: 1px solid #000;
   display: flex;
   justify-content: space-between;
+  margin-right: 115px;
 }
 
 i {
